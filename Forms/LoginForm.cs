@@ -37,5 +37,15 @@ namespace ArtisanMarketAdmin.Forms
                 lblError.Visible = true;
             }
         }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
