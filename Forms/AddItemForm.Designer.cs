@@ -2,15 +2,10 @@
 {
     partial class AddItemForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +17,7 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+       
         private void InitializeComponent()
         {
             label1 = new Label();
@@ -41,9 +33,7 @@
             btnSave = new Button();
             btnCancel = new Button();
             SuspendLayout();
-            // 
-            // label1
-            // 
+            
             label1.AutoSize = true;
             label1.BackColor = Color.White;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -53,9 +43,7 @@
             label1.Size = new Size(55, 20);
             label1.TabIndex = 0;
             label1.Text = "Name:";
-            // 
-            // label2
-            // 
+           
             label2.AutoSize = true;
             label2.BackColor = Color.White;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -64,9 +52,7 @@
             label2.Size = new Size(47, 20);
             label2.TabIndex = 1;
             label2.Text = "Price:";
-            // 
-            // label3
-            // 
+            
             label3.AutoSize = true;
             label3.BackColor = Color.White;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -75,9 +61,7 @@
             label3.Size = new Size(52, 20);
             label3.TabIndex = 2;
             label3.Text = "Stock:";
-            // 
-            // label4
-            // 
+           
             label4.AutoSize = true;
             label4.BackColor = Color.White;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -86,9 +70,7 @@
             label4.Size = new Size(77, 20);
             label4.TabIndex = 3;
             label4.Text = "Category:";
-            // 
-            // label5
-            // 
+            
             label5.AutoSize = true;
             label5.BackColor = Color.White;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -97,30 +79,22 @@
             label5.Size = new Size(64, 20);
             label5.TabIndex = 4;
             label5.Text = "Artisan:";
-            // 
-            // txtName
-            // 
+            
             txtName.Location = new Point(131, 28);
             txtName.Name = "txtName";
             txtName.Size = new Size(246, 27);
             txtName.TabIndex = 5;
-            // 
-            // txtPrice
-            // 
+           
             txtPrice.Location = new Point(131, 71);
             txtPrice.Name = "txtPrice";
             txtPrice.Size = new Size(246, 27);
             txtPrice.TabIndex = 6;
-            // 
-            // txtStock
-            // 
+            
             txtStock.Location = new Point(131, 117);
             txtStock.Name = "txtStock";
             txtStock.Size = new Size(246, 27);
             txtStock.TabIndex = 7;
-            // 
-            // cmbCategory
-            // 
+            
             cmbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbCategory.FormattingEnabled = true;
             cmbCategory.Items.AddRange(new object[] { "Home Decor", "Clothing", "Jewelry", "Pottery", "Woodwork" });
@@ -128,17 +102,13 @@
             cmbCategory.Name = "cmbCategory";
             cmbCategory.Size = new Size(184, 28);
             cmbCategory.TabIndex = 8;
-            // 
-            // cmbArtisan
-            // 
+           
             cmbArtisan.FormattingEnabled = true;
             cmbArtisan.Location = new Point(131, 209);
             cmbArtisan.Name = "cmbArtisan";
             cmbArtisan.Size = new Size(184, 28);
             cmbArtisan.TabIndex = 9;
-            // 
-            // btnSave
-            // 
+           
             btnSave.BackColor = Color.Olive;
             btnSave.ForeColor = Color.White;
             btnSave.Location = new Point(64, 262);
@@ -148,9 +118,7 @@
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = false;
             btnSave.Click += btnSave_Click;
-            // 
-            // btnCancel
-            // 
+           
             btnCancel.BackColor = Color.Olive;
             btnCancel.ForeColor = Color.White;
             btnCancel.Location = new Point(188, 262);
@@ -160,9 +128,7 @@
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = false;
             btnCancel.Click += btnCancel_Click;
-            // 
-            // AddItemForm
-            // 
+             
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(402, 303);
