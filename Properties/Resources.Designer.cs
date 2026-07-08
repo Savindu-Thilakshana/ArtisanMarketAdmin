@@ -73,9 +73,29 @@ namespace ArtisanMarketAdmin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dashboard_background {
+            get {
+                object obj = ResourceManager.GetObject("dashboard_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo {
             get {
                 object obj = ResourceManager.GetObject("Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_07_08_at_09_04_59 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-07-08 at 09.04.59", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
